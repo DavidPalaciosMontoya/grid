@@ -1,0 +1,37 @@
+nav {
+    grid-area: nav;
+    display: flex;
+    justify-content: center;
+    div {
+        border: 0.4px solid rgba(34, 34, 34, 0.5);
+        border-radius: 5px;
+        background-color: #FFFFFF;
+        width: 90%;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        overflow: auto;
+        img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+        }
+    }
+    /* background-color: black; */
+
+}
+
+@media screen and (min-width: 600px) {
+    nav {
+        width: 600px;
+        height: 100px;
+        margin-left: 10%;
+        div {
+            position: absolute;
+            width: 600px;
+        height: 100px;
+        }
+        
+    }
+}
